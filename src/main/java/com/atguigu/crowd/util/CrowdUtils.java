@@ -7,7 +7,6 @@ import java.security.NoSuchAlgorithmException;
 
 
 public class CrowdUtils {
-
     /**
      * 对明文字符串进行MD5加密
      *
@@ -20,7 +19,7 @@ public class CrowdUtils {
         if (source == null || source.length() == 0) {
 
             // 2.如果不是有效的字符串抛出异常
-            throw new RuntimeException(Constants.MESSAGE_STRING_INVALIDATE);
+            throw new RuntimeException(CrowdConstants.MESSAGE_STRING_INVALIDATE);
         }
 
         try {
