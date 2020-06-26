@@ -1,4 +1,4 @@
-package com.atguigu.crowd.util;
+package com.atguigu.crowd.util.exception;
 
 /**
  * 自定义登录异常

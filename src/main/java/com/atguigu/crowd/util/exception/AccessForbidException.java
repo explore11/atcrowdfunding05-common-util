@@ -1,4 +1,4 @@
-package com.atguigu.crowd.util;
+package com.atguigu.crowd.util.exception;
 
 /**
  * @program: atcrowdfunding05-common-util
